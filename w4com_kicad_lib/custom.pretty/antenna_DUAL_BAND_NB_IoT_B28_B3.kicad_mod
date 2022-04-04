@@ -1,6 +1,6 @@
 (footprint "antenna_DUAL_BAND_NB_IoT_B28_B3" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6244CC80)
+  (tedit 624A42BA)
   (attr through_hole)
   (fp_text reference "REF**" (at -3.83 -3.76) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
@@ -29,8 +29,7 @@
   (fp_line (start 0.1 -3.82) (end 0.1 -49.82) (layer "F.Mask") (width 3) (tstamp 25adc9de-3070-41c0-a864-ea3459924e5f))
   (fp_line (start 0.1 -49.82) (end 41.02 -49.82) (layer "F.Mask") (width 3) (tstamp 7d78c052-1098-4580-a98d-3043091cab4e))
   (fp_line (start 41.02 -49.82) (end 41.02 -33.64) (layer "F.Mask") (width 3) (tstamp dfb36977-98ef-40b5-824c-697cbf9bf5e9))
-  (pad "" smd custom (at 0.1 -2.32) (size 3 3) (layers "F.Cu" "F.Mask")
-    (clearance 0.051)
+  (pad "1" smd custom (at 0.1 -2.32) (size 3 3) (layers "F.Cu" "F.Mask")
     (options (clearance outline) (anchor rect))
     (primitives
       (gr_line (start 0 -1.5) (end 0 -47.5) (width 3))
